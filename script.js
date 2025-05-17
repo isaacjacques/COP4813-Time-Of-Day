@@ -1,4 +1,4 @@
-const hour = 22;//new Date().getHours();
+const hour = new Date().getHours();
 let backgroundColor;
 
 const COLORS = {
