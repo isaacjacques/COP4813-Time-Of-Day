@@ -1,4 +1,4 @@
-const hour = new Date().getHours();
+const hour = 6;//new Date().getHours();
 let backgroundColor;
 
 const COLORS = {
@@ -8,7 +8,7 @@ const COLORS = {
     night: "#730099"
 };
 
-hour=6;
+
 if (hour >= 6 && hour < 12) {
     backgroundColor = COLORS.morning;
 } else if (hour >= 12 && hour < 18) {
